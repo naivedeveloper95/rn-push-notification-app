@@ -1,0 +1,30 @@
+{
+	"expo": {
+		"name": "React-Native Push Notification",
+		"slug": "react-native.pushnotification",
+		"platforms": ["ios", "android", "web"],
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"icon": "./app/assets/icon.png",
+		"splash": {
+			"image": "./app/assets/splash.png",
+			"resizeMode": "cover",
+			"backgroundColor": "#0066f6"
+		},
+		"updates": {
+			"fallbackToCacheTimeout": 0
+		},
+		"assetBundlePatterns": ["**/*"],
+		"ios": {
+			"supportsTablet": true
+		},
+		"android": {
+			"package": "com.react-native.pushnotification.app",
+			"versionCode": 1
+		},
+		"description": "A marketplace for selling the stuff you don't need anymore.",
+		"notification": {
+			"iosDisplayInForeground": true
+		}
+	}
+}
